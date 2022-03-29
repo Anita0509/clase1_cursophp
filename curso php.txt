@@ -1,0 +1,37 @@
+Curso PHP
+
+Clase 8:
+CSS Unidad 2:
+
+Herramientas, fuentes externas:
+https://toolsdw.herokuapp.com/
+
+extension whatfont para saber fuente de cualquier web
+
+tamaños de fuentes
+https://lenguajecss.com/css/modelo-de-cajas/unidades-css/
+
+1em 16px
+1rem 22px
+
+se puede modificar en el root esta medida standard
+
+es mejor usar rem que px y % en fuentes
+
+el em se usa generalmente para otros recursos mas que para fuentes
+---------------------------
+Sino tiene una medida fija el body, el height al 100% no funciona, se tiene que usar propiedad vh
+solo se puede usar % cuando el contenedor padre tiene una medida fija
+
+vw: ancho del navegador, usa %
+vh: alto del navegador
+
+---------------------------
+
+box modelo-de-cajas/unidades-css/
+
+box sizing: border box para que mantenga medida de caja aun sumando margen, padding, border
+margin left y right: auto para centrar
+
+poner cajitas una al lado de otra: float
+en footer: clear left y both
